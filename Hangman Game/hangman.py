@@ -40,9 +40,52 @@ while(not enforcou and not acertou):
                 print(llist)
     else:
         mistakes += 1
+        if(mistakes == 1):
+            print (" |      (_)   ")
+            print (" |            ")
+            print (" |            ")
+            print (" |            ")
+
+        if(mistakes == 2):
+            print (" |      (_)   ")
+            print (" |      \     ")
+            print (" |            ")
+            print (" |            ")
+
+        if(mistakes == 3):
+            print (" |      (_)   ")
+            print (" |      \|    ")
+            print (" |            ")
+            print (" |            ")
+
+        if(mistakes == 4):
+            print (" |      (_)   ")
+            print (" |      \|/   ")
+            print (" |            ")
+            print (" |            ")
+
+        if(mistakes == 5):
+            print (" |      (_)   ")
+            print (" |      \|/   ")
+            print (" |       |    ")
+            print (" |            ")
+
+        if(mistakes == 6):
+            print (" |      (_)   ")
+            print (" |      \|/   ")
+            print (" |       |    ")
+            print (" |      /     ")
+
+        if (mistakes == 7):
+            print (" |      (_)   ")
+            print (" |      \|/   ")
+            print (" |       |    ")
+            print (" |      / \   ")
+
+
     
     #conditions for game over by loosing:
-    if mistakes == 6:
+    if mistakes == 7:
         enforcou = True
     #conditions for game over by winning:
     if '-' not in llist:
@@ -84,3 +127,14 @@ if enforcou == True:
     sleep(0.25)
 if acertou == True:
     print('Congratulations! you won the game!')
+    sleep(0.5)
+    print("       ___________      ")
+    print("      '._==_==_=_.'     ")
+    print("      .-\\:      /-.    ")
+    print("     | (|:.     |) |    ")
+    print("      '-|:.     |-'     ")
+    print("        \\::.    /      ")
+    print("         '::. .'        ")
+    print("           ) (          ")
+    print("         _.' '._        ")
+    print("        '-------'       ")
