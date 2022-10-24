@@ -22,3 +22,8 @@ The objective of the game is to make use of different libraries, library functio
 <p>The hangman game was developed using more advanced concepts. As you can imagine, the objective of the game is for the user to try to guess what the secret word is, being able to dictate one letter at a time, and each time he makes a mistake, the more the man ends up hanging himself, when he ends up totally hanging, with 6 errors, the user loses.
 For this, we take random words from the internet and save them in a text file worlds.txt, and we will read this text file inside the code, in addition to making use of lists, list manipulation, string manipulation, boolean types and structures repetition and conditionals.</p>
 <p>The game is in Hangman Game (folder), we needed the main file, hangman.py, and the text file, words.txt </p>
+
+## Snake Game
+
+I tried to play the snake game, based on this [video](https://www.youtube.com/watch?v=H4TXHI9BRCQ), in case you want to see. 
+It's the classic snake game, the difference is that I didn't crash the snake itself or the edges of the screen, so it's literally impossible to lose this game, sorry hehe
